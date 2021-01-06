@@ -24,6 +24,7 @@ app.use(express.json());
 //TODO: auth // crear, login, renew
 app.use('/api/auth', require('./routes/auth'));
 //TODO: crud: eventos
+app.use('/api/events', require('./routes/events'));
 
 
 //Escuchar peticiones
